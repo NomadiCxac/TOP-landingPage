@@ -1,0 +1,133 @@
+@font-face {
+    font-family: dpComic;
+    src: url(/dpcomic/dpcomic.ttf);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: dpComic;
+}
+
+
+
+
+.backDrop {
+    background-image: url('/images/forest.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+
+.header {
+    margin-bottom: auto;
+    background-color: #e56e1e;
+    height: 10vh;
+}
+
+.footer {
+    margin-top: auto;
+    background-color: #994914;
+    height: 10vh;
+}
+
+.middle {
+    display: flex;
+    height: 60vh;
+    color: white;
+    padding-left: 10%;
+    padding-right: 7.5%;
+}
+
+.loginModal {
+    background: rgba(0,0,0,0.5);
+    margin-right: auto;
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.carouselContainer {
+    background: rgba(214, 91, 19, 0.5);
+    margin-left: auto;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: stretch;
+}
+
+#c1 {
+    background: rgba(0,0,0,0.5);
+    height: 100%;
+    margin: 2%;
+    margin-bottom: 1%;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    gap: 25px;
+}   
+
+#c2 {
+    background: rgba(0,0,0,0.5);
+    height: 100%;
+    margin: 2%;
+    margin-top: 1%;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    gap: 12px;
+}
+
+.title {
+    margin-bottom: auto;
+    padding: 2%;
+}   
+
+.loginBox,
+.authButtons {
+    margin-bottom: auto;
+    display: flex;
+    flex-direction: column;
+}
+
+#loginButton {
+    background-color: lime;
+}
+
+#signupButton {
+    background-color: #26619c;
+    color: white;
+}
+
+#newsTitle {
+    align-self: center;
+}
+
+.newsContent {
+    display: inline-flex;
+    flex-direction: column;
+    padding-left: 12px;
+    align-items: flex-start;
+    justify-content: flex-start;
+}
+
+.itemCard {
+    max-width: 100px;
+    max-height: 100px;
+}
+
+.itemCarousel {
+    display: inline-flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    flex: 0, 1, 0;
+}
